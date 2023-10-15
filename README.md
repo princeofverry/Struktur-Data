@@ -3,6 +3,10 @@
 
 ## Materi
 ```
+Soal UTS 
+"src/Main.java"
+```
+```
 Pertemuan 2 Setter Getter
 "src/mobil.java"
 ```
