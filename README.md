@@ -22,6 +22,12 @@ Binary Tree
 "src/BinaryTree.java"
 ```
 
+## Kunci Jawaban UTS
+```
+Binary Tree 
+"src/Antrian.java"
+```
+
 
 ## Run Locally
 
