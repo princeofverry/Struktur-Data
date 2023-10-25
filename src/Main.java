@@ -80,4 +80,14 @@ class Tumpukan{
             number++;
         }
     }
+
+    public void pop(){
+        top = top.getPointer();
+        number-=1;
+
+        if(top == null) {
+            System.out.println("Hahh?!! KOSONGGG");
+            return;
+        }
+    }
 }

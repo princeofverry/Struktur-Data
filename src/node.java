@@ -6,10 +6,10 @@ public class node {
         dataNode = null;
         pointer = null;
     }
-
-    public node(Integer d, node p){
+    //tambahin pointer = node p untuk fix error
+    public node(Integer d){
         dataNode = d;
-        pointer = p;
+        pointer = null;
     }
 
     public int getData(){
