@@ -45,7 +45,7 @@ class TreeNode {
     public TreeNode(int data) {
         this.data = data;
         this.left = null; //gausa karena udh null
-        this.right = null;
+        this.right = null; //gausa dipake karena udh pasti null
     }
 }
 
@@ -88,10 +88,15 @@ public class BinaryTree {
         tree.insert(6);
         tree.insert(1);
         tree.insert(3);
+        tree.insert(9);
+        tree.insert(11);
 
         System.out.println("Inorder Traversal:");
         tree.inorderTraversal(tree.root);
+
+
     }
+
 }
 
 
