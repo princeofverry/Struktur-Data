@@ -16,6 +16,18 @@ Pertemuan 3 Stack
 "src/StackPushPop.java"
 ```
 
+## Setelah UTS
+```
+Binary Tree 
+"src/BinaryTree.java"
+```
+
+## Kunci Jawaban UTS
+```
+Binary Tree 
+"src/Antrian.java"
+```
+
 
 ## Run Locally
 
