@@ -147,6 +147,14 @@ public class AVLTree {
         }
     }
 
+    void inOrderTraversal(NodeAVL node) {
+        if (node != null) {
+            inOrderTraversal(node.left);
+            System.out.println("Name: " + node.contact.name + ", Phone Number: " + node.contact.phoneNumber);
+            inOrderTraversal(node.right);
+        }
+    }
+
     public static void main(String[] args) {
         AVLTree phoneBook = new AVLTree();
 
@@ -155,7 +163,7 @@ public class AVLTree {
         phoneBook.insert(new Contact("Edi", "555-123-4567"));
 
         System.out.println("Phone Book entries:");
-        phoneBook.preOrderTraversal(phoneBook.root);
+        phoneBook.inOrderTraversal(phoneBook.root);
 
         String searchName = "Asep";
         Contact foundContact = phoneBook.search(searchName);
